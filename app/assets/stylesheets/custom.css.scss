@@ -1,12 +1,12 @@
 @import 'bootstrap/dist/css/bootstrap';
 
 
-.nav-link {
+.nav-item {
     font-size: 14px;
 } 
 
 .navbar-brand {
-	font-size: 24px;
+	font-size: 20px;
 }
 
 .search-area {
@@ -28,4 +28,9 @@
 
 .logout-button {
     margin-right: 5px;
+}
+
+.user-name {
+    margin-top: 3.5%;
+    padding-right: 5px;
 }
