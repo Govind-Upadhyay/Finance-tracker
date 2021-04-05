@@ -27,7 +27,8 @@
                         </div>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                        <%= link_to("Friends", destroy_user_session_path,
+                             class: "nav-link")%>
                     </li>
                 </ul>
                 <ul class='navbar-nav ml-auto'>
